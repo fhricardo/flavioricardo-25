@@ -30,9 +30,8 @@
     <title>Flavio Ricardo | Design & Estratégia</title>
     <link rel="stylesheet" href="css/flavioricardo-main.css">
     <script src="js/fontawesome.js" defer></script>
-
-    <script src="js/fr-modal.js" defer></script>
-
+    <!-- <script src="js/fr-modal.js" defer></script> -->
+    <script src="js/flavioricardo.js" defer></script>
 </head>
 
 <body>
@@ -92,39 +91,34 @@
     </header>
     <main>
         <section class="banner">
-            <h1 class="hero-text" data-content="Flávio Ricardo Design">Flávio Ricardo Design</h1>
+            <h1 class="hero-text" data-content="Flávio Ricardo">Flávio Ricardo</h1>
+            <div class="lightFX"></div>
             <p class="lead">Design Gráfico | Design UI/UX | Desenvolvimento Web</p>
         </section>
         <section id="about">
             <div class="title">
                 <h2>Sobre</h2>
             </div>
-            <div class="contents">
+            <div class="content">
                 <div class="text">
+                    <h3><span>Flávio Ricardo</span></h3>
                     <p class="lead">
-                        Olá! Sou Flávio Ricardo, tenho <span id="age"></span> anos e sou Designer Gráfico e Digital,
-                        Desenvolvedor Web
-                        Front-end e Instrutor de Treinamentos
-                        sobre Softwares e Tecnologias nas áreas de Design e Web.
+                        Desenvolvedor Web, Designer Gráfico e Digital e Instrutor de Tecnologias para Design e Web.
                     </p>
                     <p class="mt-4">
-                        Com mais de 20 anos atuando no mercado de design e desenvolvimento web, me tornei
-                        especialista nos softwares Adobe, com ênfase em manipulação e retoque criativo de imagens
-                        publicitárias, desenvolvimento de identidades visuais, diagramação e apresentações
-                        interativas.
-                    </p>
-                    <p class="mt-4">Também atuo com automação de processos de design, incluindo dados variáveis,
-                        actions e
-                        scripts, como forma de potencializar os recursos oferecidos pelas ferramentas, aumentando a
-                        produtividade e reduzindo o tempo de execução de projetos.</p>
-                    <p class="mt-4">Em desenvolvimento web front-end, sou especialista em
-                        estruturas semânticas e
-                        responsivas,
-                        com foco em UI/UX, proporcionando uma experiência de usuário dinâmica e agradável, tornando
-                        os sites ágeis e leves.</p>
+                        Com mais de 20 anos de experiência, sou especialista em Adobe, focado em retoque criativo,
+                        identidade visual, diagramação e apresentações interativas.</p>
+                    <p class="mt-4">Em desenvolvimento web, crio interfaces responsivas e semânticas, garantindo
+                        uma experiência ágil e intuitiva.</p>
+                    <p class="mt-4">Também trabalho com automação de design para otimizar processos e aumentar a
+                        produtividade.</p>
+                    <p><a href="#">Visite meu perfil no LinkedIn<i class="fa-brands fa-linkedin"></i></a></p>
                 </div>
                 <div class="image">
-                    <img src="assets/tablet-640x480.webp" alt="">
+                    <div class="gradient-border">
+                        <img src="assets/tablet-640x480.webp" alt="">
+                    </div>
+
                 </div>
             </div>
 
@@ -132,22 +126,287 @@
                 <a href="#" aria-label="Voltar ao Topo"><i class="fa-solid fa-chevron-up fa-2xl"></i></a>
             </div>
         </section>
-        <section id="services">
+        <!-- Services section -->
+        <section id="services" class="bg-dark">
             <div class="title">
-                <h2>Serviços</h2>
+                <h2>Nossos <span>serviços</span></h2>
+            </div>
+            <div class="slider-container">
+                <div class="slider-contents">
+                    <div class="slider-card bg-black">
+                        <h3>Desenvolvimento Web</h3>
+                    </div>
+                    <div class="slider-card bg-black">
+                        <h3>Identidade Visual</h3>
+                    </div>
+                    <div class="slider-card bg-black">
+                        <h3>Design UI/UX</h3>
+                    </div>
+                    <div class="slider-card bg-black">
+                        <h3>Design Digital</h3>
+                    </div>
+                    <div class="slider-card bg-black">
+                        <h3>Performance & SEO</h3>
+                    </div>
+                    <div class="slider-card bg-black">
+                        <h3>Automação em Design</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+            </div>
+            <div class="back">
+                <a href="#" aria-label="Voltar ao Topo"><i class="fa-solid fa-chevron-up fa-2xl"></i></a>
+            </div>
+        </section>
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <div class="title">
+                <h2>Conheça o <span>portfolio</span></h2>
             </div>
             <div class="contents">
                 <div class="card">
-                    <div class="icon">
-                        <i class="fa-solid fa-image"></i>
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h3>Project Title</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                        </p>
+                        <button class="more">Saiba mais</button>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="icon">
-                        <i class="fa-solid fa-pen-ruler"></i>
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h3>Project Title</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                        </p>
+                        <button class="more">Saiba mais</button>
                     </div>
-
                 </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h3>Project Title</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                        </p>
+                        <button class="more">Saiba mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h3>Project Title</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                        </p>
+                        <button class="more">Saiba mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h3>Project Title</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                        </p>
+                        <button class="more">Saiba mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h3>Project Title</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                        </p>
+                        <button class="more">Saiba mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h3>Project Title</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                        </p>
+                        <button class="more">Saiba mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h3>Project Title</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                        </p>
+                        <button class="more">Saiba mais</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="back">
+                <a href="#" aria-label="Voltar ao Topo"><i class="fa-solid fa-chevron-up fa-2xl"></i></a>
+            </div>
+        </section>
+        <!-- Courses Section -->
+        <section id="courses" class="bg-black">
+            <div class="title">
+                <h2>Encontre seu <span>curso</span></h2>
+            </div>
+            <div class="slider-container">
+                <div class="slider-contents">
+                    <div class="slider-card bg-dark">
+                        <h3>HTML & CSS for Pros</h3>
+                    </div>
+                    <div class="slider-card bg-dark">
+                        <h3>Prototipagem com Figma</h3>
+                    </div>
+                    <div class="slider-card bg-dark">
+                        <h3>Automação com InDesign</h3>
+                    </div>
+                    <div class="slider-card bg-dark">
+                        <h3>Introdução ao Design</h3>
+                    </div>
+                    <div class="slider-card bg-dark">
+                        <h3>Performance & SEO</h3>
+                    </div>
+                    <div class="slider-card bg-dark">
+                        <h3>Automação de Processos</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+            </div>
+            <div class="back">
+                <a href="#" aria-label="Voltar ao Topo"><i class="fa-solid fa-chevron-up fa-2xl"></i></a>
+            </div>
+        </section>
+        <!-- Tutorials Section -->
+        <section id="tutorials">
+            <div class="title">
+                <h2>Aprenda com nossos <span>tutoriais</span></h2>
+            </div>
+            <div class="contents">
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/about-image.webp" alt="">
+                    <div class="desc">
+                        <h5>Project Title</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, unde.</p>
+                        <button class="more"><i class="fa-solid fa-play"></i>Assistir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="back">
+                <a href="#" aria-label="Voltar ao Topo"><i class="fa-solid fa-chevron-up fa-2xl"></i></a>
+            </div>
+        </section>
+        <!-- Section Contact -->
+        <section id="contact" class="bg-dark">
+            <div class="title">
+                <h2>Entre em <span>contato</span></h2>
+            </div>
+            <div class="contents">
+                <div class="info">
+                    <p class="lead">Precisa de informações sobre serviços, cursos ou mentorias? Preencha o formulário
+                        <span></span>!
+                    </p>
+                    <p class="lead">Se preferir, entre em contato agora:</p>
+                    <button class="wa"><i class="fa-brands fa-whatsapp"></i>Conversar pelo WhatsApp</button>
+                </div>
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Nome">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <input type="tel" name="tel" id="tel" placeholder="Telefone">
+                    <input type="text" name="subject" id="subject" placeholder="Assunto">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="back">
+                <a href="#" aria-label="Voltar ao Topo"><i class="fa-solid fa-chevron-up fa-2xl"></i></a>
             </div>
         </section>
     </main>
@@ -159,24 +418,50 @@
             </ul>
             <ul>
                 <h6>Serviços</h6>
-                <li><a href="#">Design Gráfico e Digital</a></li>
-                <li><a href="#">Pro Retouch</a></li>
-                <li><a href="#">Automação de Processos</a></li>
-                <li><a href="#">Desenvolvimento Web</a></li>
+                <li><a href="">Desenvolvimento Web</a></li>
+                <li><a href="">Identidade Visual</a></li>
+                <li><a href="">Design UI/UX</a></li>
+                <li><a href="">Design Digital</a></li>
+                <li><a href="">Performance & SEO</a></li>
+                <li><a href="">Automação em Design</a></li>
             </ul>
             <ul>
-                <h6>Cursos Online</h6>
-                <li><a href="#">Design Político 360</a></li>
-                <li><a href="#">Photoshop</a></li>
-                <li><a href="#">Web Wizardry</a></li>
+                <h6>Cursos</h6>
+                <li><a href="">HTML & CSS for Pros</a></li>
+                <li><a href="">Protogipagem com Figma</a></li>
+                <li><a href="">Automação com InDesign</a></li>
+                <li><a href="">Introdução ao Design</a></li>
             </ul>
             <ul>
-                <h6>Contato</h6>
-                <li><a href="#">Footer Link</a></li>
-                <li><a href="#">Footer Link</a></li>
-                <li><a href="#">Footer Link</a></li>
-                <li><a href="#">Footer Link</a></li>
+                <h6>Livros</h6>
+                <li><a href="">Dominando o estilo: O guia definitivo de CSS</a></li>
+                <li><a href="">Design de Interfaces Web</a></li>
             </ul>
+        </div>
+        <div class="contact">
+            <h6>Entre em contato</h6>
+            <p><a href="#"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a></p>
+            <p><a href="#"><i class="fa-solid fa-phone"></i>11 9 4035 3144</a></p>
+            <p><a href="#"><i class="fa-solid fa-envelope"></i>contact@flavioricardo.com.br</a></p>
+            <h6>Siga nas redes sociais</h6>
+            <p>
+                <a href="https://behance.net/flavioricardo" target="_blank" title="Bahance" aria-label="Behance">
+                    <i class="fa-brands fa-behance-square"></i></a>
+
+                <a href="https://www.instagram.com/flavioricardodesign/" target="_blank" title="Instagram"
+                    aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i></a>
+
+                <a href="https://www.facebook.com/flavioricardodesign" target="_blank" title="Facebook"
+                    aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-square"></i></a>
+
+                <a href="https://github.com/fhricardo" target="_blank" title="GitHub" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i></a>
+
+                <a href="https://wa.me/5511940353144" target="_blank" title="WhatsApp" aria-label="WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i></a>
+            </p>
         </div>
         <div class="credits">
             <p>&copy;<span class="thisYear"></span> - Flávio Ricardo. Todos os Direitos Reservados.
@@ -186,7 +471,6 @@
             <p class="made"><i class="fa-solid fa-heart"></i></p>
         </div>
     </footer>
-    <script src="js/flavioricardo.js"></script>
 </body>
 
 </html>
