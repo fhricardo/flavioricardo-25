@@ -117,3 +117,44 @@ document.querySelectorAll(".slider-container").forEach((sliderContainer) => {
 
     observer.observe(sliderContainer);
 });
+
+// Função para abrir/fechar o modal (toggle)
+function pfModal() {
+    const modal = document.getElementById('pfModal');
+    if (modal) {
+        modal.style.display = (modal.style.display === 'flex') ? 'none' : 'flex';
+    }
+}
+
+// Fechar o modal ao clicar no botão #pfModalClose
+document.addEventListener('DOMContentLoaded', function () {
+    const closeButton = document.getElementById('pfModalClose');
+    if (closeButton) {
+        closeButton.addEventListener('click', function () {
+            const modal = document.getElementById('pfModal');
+            if (modal) {
+                modal.style.display = 'none';
+            }
+        });
+    }
+});
+// Função para abrir/fechar o modal (toggle)
+function vodModal() {
+    const modal = document.getElementById('vodModal');
+    if (modal) {
+        modal.style.display = (modal.style.display === 'flex') ? 'none' : 'flex';
+    }
+}
+
+// Fechar o modal ao clicar no botão #vodModalClose
+document.addEventListener('DOMContentLoaded', function () {
+    const closeButton = document.getElementById('vodModalClose');
+    if (closeButton) {
+        closeButton.addEventListener('click', function () {
+            const modal = document.getElementById('vodModal');
+            if (modal) {
+                modal.style.display = 'none';
+            }
+        });
+    }
+});
